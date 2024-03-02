@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/v1/reservation/send",
+        "https://charming-teal-leopard.cyclic.app/api/v1/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
