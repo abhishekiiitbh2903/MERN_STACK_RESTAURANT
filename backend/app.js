@@ -9,7 +9,7 @@ const app = express();
 dotenv.config({ path: "./config/config.env" });
 
 const corsOptions = {
-  origin: 'http://127.0.0.1:5173', // Allow requests from this origin
+  origin: 'https://mern-stack-restaurant-ruby.vercel.app', // Allow requests from this origin
   allowedHeaders: ['Content-Type', 'Authorization', 'Custom-Header'],
   credentials: true // Allow credentials
 };
